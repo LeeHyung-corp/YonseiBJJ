@@ -1,0 +1,80 @@
+# invoke rewrite engine
+RewriteEngine On
+RewriteBase /
+
+Options -Indexes
+<IfModule mod_negotiation.c>
+	Options -MultiViews
+</IfModule>
+
+# Redirect to www
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Specific redirections
+RewriteRule ^index.html$ / [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_cTaR44$
+RewriteRule ^index\.php$ index-mid-page_cTaR44.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_Kfbn65$
+RewriteRule ^index\.php$ index-mid-page_Kfbn65.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_qGxr12$
+RewriteRule ^index\.php$ index-mid-page_qGxr12.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_dFVf90$
+RewriteRule ^index\.php$ index-mid-page_dFVf90.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_SfDJ44$
+RewriteRule ^index\.php$ index-mid-page_SfDJ44.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_NlHW20$
+RewriteRule ^index\.php$ index-mid-page_NlHW20.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_vKMK11$
+RewriteRule ^index\.php$ index-mid-page_vKMK11.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_SerL39$
+RewriteRule ^index\.php$ index-mid-page_SerL39.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_GvNi73$
+RewriteRule ^index\.php$ index-mid-page_GvNi73.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_Lrkl63$
+RewriteRule ^index\.php$ index-mid-page_Lrkl63.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=page_uJQB01$
+RewriteRule ^index\.php$ index-mid-page_uJQB01.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=board_qDjv51$
+RewriteRule ^index\.php$ index-mid-board_qDjv51.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=board_zAma28$
+RewriteRule ^index\.php$ index-mid-board_zAma28.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=board_IGGp89$
+RewriteRule ^index\.php$ index-mid-board_IGGp89.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=sub05$
+RewriteRule ^index\.php$ index-mid-sub05.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=board_yYPU40$
+RewriteRule ^index\.php$ index-mid-board_yYPU40.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=board_TJDE04$
+RewriteRule ^index\.php$ index-mid-board_TJDE04.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.php$ index_php.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=main&act\=dispMemberFindAccount$
+RewriteRule ^index\.php$ index-mid-main-act-dispMemberFindAccount.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=main&act\=dispMemberLoginForm$
+RewriteRule ^index\.php$ index-mid-main-act-dispMemberLoginForm.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=main&act\=dispMemberResendAuthMail$
+RewriteRule ^index\.php$ index-mid-main-act-dispMemberResendAuthMail.html? [L,R=301]
+RewriteCond %{QUERY_STRING} ^mid\=main&act\=dispMemberSignUpForm$
+RewriteRule ^index\.php$ index-mid-main-act-dispMemberSignUpForm.html? [L,R=301]
+
+# Redirect all extensions to html
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.shtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.phtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jhtml$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.htm$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.php$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.aspx$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.asp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.jsp$ $1.html [L,NC,R=301]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^(.*)\.apk$ $1.html [L,NC,R=301]
+# End: Redirect all extensions to html

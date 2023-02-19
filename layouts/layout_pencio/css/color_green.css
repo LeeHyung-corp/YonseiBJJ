@@ -1,0 +1,43 @@
+#header-wrapper{ border-color:#819079; }
+
+#menu-btn{ color:#819079;}
+
+.bd .bg_f_f9{ background:#819079;}
+
+#pen-login-bt,
+.pen-btn.pen-green,
+.open-btn:hover,
+.zoom-btn:hover,
+.ie8 .pen-menu.responsive-menu > li.on > a,
+.ie8 .pen-menu.responsive-menu > li:hover > a,
+.pen-menu > li.active > a,.pen-menu > li.on > a{ background-color:#819079;}
+
+.pen-menu li li a {	background: rgba(89,89,89, 0.4);}
+
+.unique-menu-tab li a.active,
+.unique-menu li a.active,
+.unique-menu li:hover > a,
+.unique-menu-tab li:hover > a,
+.pen-menu.responsive-menu > li:hover > a,
+.pen-menu.responsive-menu > li.on,
+.pen-menu li li.active > a,
+.pen-menu li .mega-menu .mega-list li:hover > a  {
+	background-color: rgba(129,144,121, 0.9);
+}
+.ie8 .open-btn:hover,
+.ie8 .zoom-btn:hover {
+	background: url('../images/ie/portfolio-zoom-green.png') no-repeat;
+	background-position-x: right;
+}
+
+
+
+@media (max-width: 979px) and (min-width: 768px){
+	
+	#header{ border-color:#819079;}
+	.pen-menu li li.on a{ background-color:#819079;}
+}
+
+@media (max-width:768px) {
+	.homepage #header, .homepage-margin #header, .homepage-grid #header{ border-color:#819079;}
+}

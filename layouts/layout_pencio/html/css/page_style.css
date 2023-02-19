@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.page-title{ border-left:5px solid #556270; text-indent:10px; line-height:1em;}
+.breadcrumb li a.home{ padding-left:12px; background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_home.png) no-repeat 0 1px; }
+.breadcrumb li { background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_bread_left.png) no-repeat 0 6px; padding:0 15px; }
+.breadcrumb li:first-child{ padding:0; background:none;}
+
+/* 타이틀 스타일 */
+.pen-title{ line-height:1em; text-align:left; background:none; padding:0; font-family:'Nanum Gothic', 나눔고딕, NanumGothic, 맑은고딕, malgun gothic, dotum, gulim,'Raleway', sans-serif;}
+.pen-title-border{ border-bottom:1px solid #dfdfdf; padding-bottom:.5em;}
+h1.pen-title{ font-size:20px; border-left:5px solid #556270; text-indent:10px; }
+h2.pen-title{ font-size:16px; text-indent:15px; background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_arrow_h2.png) no-repeat left 30%; margin-bottom:20px; }
+h3.pen-title{ font-size:14px; text-indent:10px; background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_arrow_h3.png) no-repeat left 30%; margin-bottom:15px; }
+h4.pen-title{ font-size:12px; text-indent:10px; background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_arrow_h3.png) no-repeat left 30%; margin-bottom:10px; }
+
+.pen-title-box{ text-align:left; background:#556270; font-family:'Nanum Gothic', 나눔고딕, NanumGothic, 맑은고딕, malgun gothic, dotum, gulim,'Raleway', sans-serif; color:white; line-height:2em; }
+h1.pen-title-box{ font-size:20px; }
+h2.pen-title-box{ font-size:16px; }
+h3.pen-title-box{ font-size:14px; }
+h4.pen-title-box{ font-size:12px; }
+
+ul.pen-list{ }
+ul.pen-list li{ list-style:none; line-height:1em; padding:0 0 0 15px; margin-bottom:10px;  background:url(http://www.yonseibjj.com/layouts/layout_pencio/html/images/icon_list_arrows.png) 0 0 no-repeat; }
+ul.pen-list li a{}
+ul.pen-list li .date{ float:right; font-family: 'PTSansCaptionRegular', sans-serif, dotum, gulim; font-size:11px; color:#999;}
+
+ul.list-style1 li{ }
+ul.list-style2 li{ background-position:0 -13px; }
+ul.list-style3 li{ background-position:0 -27px; }
+ul.list-style4 li{ background-position:0 -42px;}
+ul.list-style5 li{ background-position:0 -57px;}
+ul.list-style6 li{ background-position:0 -70px;}
+
+.pen-btn.pen-blue{ background-color:#556270; color:white; }
+.pen-btn.pen-gold{ background-color:#908879; color:white; }
+.pen-btn.pen-green{ background-color:#819079; color:white; }
+.pen-btn.pen-purple{ background-color:#7d607e; color:white; }
+
+.pen-btn:hover,
+.pen-btn:focus,
+.pen-btn:active {
+	background-color: #2f3538;
+	color:#fff;
+}
+
+.nav-tab.pen-blue li.active > a{ background-color:#556270; }
+.nav-tab.pen-gold li.active > a{ background-color:#908879; }
+.nav-tab.pen-green li.active > a{ background-color:#819079; }
+.nav-tab.pen-purple li.active > a{ background-color:#7d607e; }
+
+.accordion.pen-blue .accordion-btn{ background-color:#556270; }
+.accordion.pen-gold .accordion-btn{ background-color:#908879; }
+.accordion.pen-green .accordion-btn{ background-color:#819079; }
+.accordion.pen-purple .accordion-btn{ background-color:#7d607e; }
+
+.pen-title-box.pen-blue{ background-color:#556270; background-image:none; }
+.pen-title-box.pen-gold{ background-color:#908879; background-image:none; }
+.pen-title-box.pen-green{ background-color:#819079; background-image:none; }
+.pen-title-box.pen-purple{ background-color:#7d607e; background-image:none; }
+
+.pen-pbox{ padding:1.5em; background:white; border:1px solid #eaeaea;}
